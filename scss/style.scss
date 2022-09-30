@@ -31,9 +31,24 @@ header {
 .img1 {
     grid-area: img1;
     border: 1px solid #000;
+    box-shadow: 2px 2px #000;
     margin-bottom: 1rem;
+    background:url(../img/deporte.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    color: #fff;
+}
+
+.container p {
+    color: #000;
+    font-size: 1rem;  
+    padding-top: 8rem;
     text-align: center;
-    background-color: rgb(196, 147, 241);
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
 }
 
 .img2 {
