@@ -4,5 +4,125 @@
   padding: 0;
   box-sizing: border-box; }
 
+/* Header */
+header {
+  height: 10vh; }
+
 .navbar-nav .dropdown-menu {
   margin-bottom: 1rem; }
+
+/* Main */
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-template-areas: "img1 img2" "img3 img4" "img5 img6" "img7 img7";
+  column-gap: 1rem;
+  padding: 1rem; }
+
+.img1 {
+  grid-area: img1;
+  border: 1px solid #000;
+  margin-bottom: 1rem;
+  text-align: center;
+  background-color: #c493f1; }
+
+.img2 {
+  grid-area: img2;
+  border: 1px solid #000;
+  margin-bottom: 1rem;
+  text-align: center;
+  background-color: #c493f1; }
+
+.img3 {
+  grid-area: img3;
+  border: 1px solid #000;
+  margin-bottom: 1rem;
+  text-align: center;
+  background-color: #c493f1; }
+
+.img4 {
+  grid-area: img4;
+  border: 1px solid #000;
+  text-align: center;
+  margin-bottom: 1rem;
+  background-color: #c493f1; }
+
+.img5 {
+  grid-area: img5;
+  border: 1px solid #000;
+  text-align: center;
+  background-color: #c493f1; }
+
+.img6 {
+  grid-area: img6;
+  border: 1px solid #000;
+  text-align: center;
+  background-color: #c493f1; }
+
+.img7 {
+  grid-area: img7;
+  border: 1px solid #000;
+  text-align: center;
+  margin-top: 1rem;
+  background-color: #93caf1; }
+
+/* Seccion Imagenes */
+.seccion2 {
+  display: flex;
+  justify-content: space-around; }
+
+.imgIzq {
+  border: 1px solid #000;
+  padding: 2rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+  background-color: #40aefc; }
+
+.imgDer {
+  border: 1px solid #000;
+  padding: 2rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+  background-color: #40aefc; }
+
+.nav {
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+  background-color: aliceblue; }
+
+/* Seccion Map */
+.navegTitleA {
+  text-decoration: none;
+  color: #000; }
+
+.navegaTitle {
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 2.5rem; }
+
+.navegaTitle:hover {
+  color: #f27676;
+  font-size: 3rem; }
+
+.seccionMap {
+  margin-top: 4rem;
+  text-align: center; }
+
+/* Footer */
+.Footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #898888;
+  margin-top: 1rem;
+  padding: 1rem; }
+
+.FooterP p {
+  color: aliceblue;
+  font-size: 1.2rem; }
